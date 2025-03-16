@@ -1,0 +1,58 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>START GAME </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .background {
+            width: 100vw;
+            height: 100vh;
+            background: url('road.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 20px;
+            gap: 20px;
+        }
+        .car {
+            width: 200px;
+        }
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .back-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">Go Back</a>
+
+    <div class="background">
+        <img src="car (1).png" alt="Car 1" class="car">
+        <img src="car (2).png" alt="Car 2" class="car">
+        <img src="car (3).png" alt="Car 3" class="car">
+        <img src="car (4).png" alt="Car 4" class="car">
+    </div>
+
+</body>
+</html>

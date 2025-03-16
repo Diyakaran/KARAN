@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psycho Gaming</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url("bgp.png");
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(31, 31, 31, 0.8);
+            padding: 20px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .gallery {
+            margin: 40px auto;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .gallery h2 {
+            border-bottom: 2px solid #00ffcc;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #00ffcc;
+            transition: transform 0.3s ease;
+        }
+        .images img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;">Welcome to Psycho Gaming</h1>
+        <nav>
+            <a href="second.html" style="display: inline-block; padding: 10px 20px; font-size: 20px; background-color: #00ffcc; color: #121212; border-radius: 5px; text-decoration: none; font-weight: bold;">Start</a>
+        </nav>
+    </header>
+    
+    <section class="gallery">
+        <h2>3D Cars</h2>
+        <div class="images">
+            <img src="car (1).png" alt="3D Car 1">
+            <img src="car (3).png" alt="3D Car 2">
+            <img src="car (2).png" alt="3D Car 3">
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Players</h2>
+        <div class="images">
+            <img src="CH1.jpg" alt="Player 1">
+            <img src="CH1.jpg" alt="Player 2">
+            <img src="CH1.jpg" alt="Player 3">
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>
